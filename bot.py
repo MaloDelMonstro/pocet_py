@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQuer
 from telegram.request import HTTPXRequest
 
 DATA_FILE = 'users_data.json'
-TOKEN = os.getenv('BOT_TOKEN', '8824905296:AAH5rcrPFvjhUQ8X_GHR-Xl5F8D0_XHRIco')
+TOKEN = os.getenv('BOT_TOKEN')
 PROXY_URL = None
 
 
